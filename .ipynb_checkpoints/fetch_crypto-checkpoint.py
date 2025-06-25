@@ -42,7 +42,7 @@ def automation():
     df.to_sql('crypto_table', engine, if_exists='append', index=False)
 
 
-    for i in range (300):
+for i in range (300):
     automation()
     print('queue:',i)
     sleep(120)
