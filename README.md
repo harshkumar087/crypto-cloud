@@ -23,7 +23,7 @@ A full-stack data project that fetches, stores, transforms, and visualizes real-
 
 | Layer         | Tool/Tech                    |
 |---------------|------------------------------|
-| Data Source   | [CoinMarketCap API](https://coinmarketcap.com/api/) |
+| Data Source   | [CoinMarketCap API](https://coinmarketcap.com/api/documentation/v1/) |
 | Data Handling | Python, Pandas               |
 | Database      | PostgreSQL (Supabase-hosted) |
 | Visualization | Metabase                     |
