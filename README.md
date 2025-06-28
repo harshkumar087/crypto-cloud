@@ -45,23 +45,21 @@ A full-stack data project that fetches, stores, transforms, and visualizes real-
 
 ## Sample Dashboard Preview
 
-_Include an image of the dashboard here if available:_
-
-![Crypto Dashboard](path/to/dashboard_image.png)
+![Crypto Dashboard](https://raw.githubusercontent.com/harshkumar087/crypto-cloud/main/Metabase%20-%20Crypto_cloud_dash-5.png)
 
 ## Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/crypto-dashboard.git
-cd crypto-dashboard
+git clone https://github.com/harshkumar087/crypto-cloud.git
+cd crypto-cloud
 ```
 
 ### 2. Set Up Environment
 Create a `.env` file and store your API key and DB credentials:
 ```env
-COIN_API_KEY=your_key_here
-DB_URL=your_supabase_db_url
+API_KEY=your_key_here
+SUPA_URL=your_supabase_db_url
 ```
 
 ### 3. Install Requirements
@@ -71,7 +69,7 @@ pip install -r requirements.txt
 
 ### 4. Run the Script
 ```bash
-python fetch_and_upload.py
+python fetch_crypto.py
 ```
 
 ### 5. Visualize in Metabase
