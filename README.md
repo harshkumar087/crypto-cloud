@@ -45,7 +45,7 @@ A full-stack data project that fetches, stores, transforms, and visualizes real-
 
 ## Sample Dashboard Preview
 
-
+![Crypto Dashboard](https://raw.githubusercontent.com/harshkumar087/crypto-cloud/main/Metabase%20-%20Crypto_cloud_dash-5.png)
 
 ## Setup Instructions
 
